@@ -1,0 +1,22 @@
+{
+  "name": "neovim-floating-window-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --outDir rplugin/node/fw-debug"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Thomas Bonk",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/msgpack-lite": "^0.1.6",
+    "@types/node": "^11.13.0",
+    "neovim": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
